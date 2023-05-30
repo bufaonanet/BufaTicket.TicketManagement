@@ -23,13 +23,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BufaTicket.TicketManagement
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BufaTicket.TicketManagement.Infrastructure", "src\BufaTicket.TicketManagement.Infrastructure\BufaTicket.TicketManagement.Infrastructure.csproj", "{7C2FB411-691B-444C-89BA-C414EEE06942}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BufaTicket.TicketManagement.Api", "src\BufaTicket.TicketManagement.Api\BufaTicket.TicketManagement.Api.csproj", "{F1409658-036A-4FAA-BC41-2EF4CC87A39C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BufaTicket.TicketManagement.Api", "src\BufaTicket.TicketManagement.Api\BufaTicket.TicketManagement.Api.csproj", "{F1409658-036A-4FAA-BC41-2EF4CC87A39C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BufaTicket.TicketManagement.Application.UnitTests", "tests\BufaTicket.TicketManagement.Application.UnitTests\BufaTicket.TicketManagement.Application.UnitTests.csproj", "{F867ECDF-A3EC-4832-BE67-F057CD6A7D6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BufaTicket.TicketManagement.Application.UnitTests", "tests\BufaTicket.TicketManagement.Application.UnitTests\BufaTicket.TicketManagement.Application.UnitTests.csproj", "{F867ECDF-A3EC-4832-BE67-F057CD6A7D6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BufaTicket.TicketManagement.Persistence.IntegrationTests", "tests\BufaTicket.TicketManagement.Persistence.IntegrationTests\BufaTicket.TicketManagement.Persistence.IntegrationTests.csproj", "{96995787-7265-4BE9-8E80-0DE8A9C5CD7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BufaTicket.TicketManagement.Persistence.IntegrationTests", "tests\BufaTicket.TicketManagement.Persistence.IntegrationTests\BufaTicket.TicketManagement.Persistence.IntegrationTests.csproj", "{96995787-7265-4BE9-8E80-0DE8A9C5CD7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BufaTicket.TicketManagement.API.IntegrationTests", "tests\BufaTicket.TicketManagement.API.IntegrationTests\BufaTicket.TicketManagement.API.IntegrationTests.csproj", "{D9B5FE70-73EA-42D1-A54E-C4B617D019A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BufaTicket.TicketManagement.API.IntegrationTests", "tests\BufaTicket.TicketManagement.API.IntegrationTests\BufaTicket.TicketManagement.API.IntegrationTests.csproj", "{D9B5FE70-73EA-42D1-A54E-C4B617D019A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BufaTicket.TicketManagement.App", "src\BufaTicket.TicketManagement.App\BufaTicket.TicketManagement.App.csproj", "{6881D3A1-3CF6-4D6A-81EF-17A5905F3BFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BufaTicket.TicketManagement.Identity", "src\BufaTicket.TicketManagement.Identity\BufaTicket.TicketManagement.Identity.csproj", "{6C4D622E-B3EB-43B8-9328-EC298CEE50FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{D9B5FE70-73EA-42D1-A54E-C4B617D019A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9B5FE70-73EA-42D1-A54E-C4B617D019A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9B5FE70-73EA-42D1-A54E-C4B617D019A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6881D3A1-3CF6-4D6A-81EF-17A5905F3BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6881D3A1-3CF6-4D6A-81EF-17A5905F3BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6881D3A1-3CF6-4D6A-81EF-17A5905F3BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6881D3A1-3CF6-4D6A-81EF-17A5905F3BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4D622E-B3EB-43B8-9328-EC298CEE50FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4D622E-B3EB-43B8-9328-EC298CEE50FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4D622E-B3EB-43B8-9328-EC298CEE50FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4D622E-B3EB-43B8-9328-EC298CEE50FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +98,8 @@ Global
 		{F867ECDF-A3EC-4832-BE67-F057CD6A7D6A} = {2FEBA7C8-05F2-48A2-9AA8-538EC2EDF838}
 		{96995787-7265-4BE9-8E80-0DE8A9C5CD7D} = {2FEBA7C8-05F2-48A2-9AA8-538EC2EDF838}
 		{D9B5FE70-73EA-42D1-A54E-C4B617D019A7} = {2FEBA7C8-05F2-48A2-9AA8-538EC2EDF838}
+		{6881D3A1-3CF6-4D6A-81EF-17A5905F3BFC} = {27AB1DF8-17EB-4B7C-ABCE-57DA99A3D924}
+		{6C4D622E-B3EB-43B8-9328-EC298CEE50FF} = {6FD34C63-A221-4627-9AFF-56485B0A60D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FBADE314-7914-4355-984F-58D15435DDC0}
